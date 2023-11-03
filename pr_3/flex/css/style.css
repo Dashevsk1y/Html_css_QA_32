@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {}
+
+.container__inner {
+    display: flex;
+}
+
+.card {
+    display: flex;
+
+}
+
+.card-cod {
+    width: 100%;
+}
+
+.picture {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.card-title {
+    width: 100%;
+    font-size: 30px;
+}
+
+.card-order {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card-price {}
+
+.card-cart {}
