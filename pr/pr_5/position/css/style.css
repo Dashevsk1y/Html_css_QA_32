@@ -1,0 +1,66 @@
+/* .container {
+    width: 95%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background: #e8e5e5;
+
+}
+
+.block {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.block1 {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.block2 {
+    background: green;
+    margin: 10px;
+}
+
+.block3 {
+    background: blueviolet;
+    margin: 10px;
+} */
+body {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border: 3px solid rgb(161, 159, 159);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    font-size: 42px;
+}
+
+.japan {
+    width: 180px;
+    height: 180px;
+    background: red;
+    border-radius: 50%;
+}
+
+/* .japan::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    border: 1px solid black;
+    clear: both;
+} */

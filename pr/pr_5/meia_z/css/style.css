@@ -1,0 +1,19 @@
+@import url("./adaptiv/mobile.css");
+
+body {
+    height: 100%;
+}
+
+.container {
+    width: 95%;
+    height: 95%;
+    background: #dfdada;
+    display: flex;
+}
+
+.block {
+    width: 100px;
+    height: 200px;
+    background: green;
+    margin: 10px;
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width: 1024px) {
+    .block {
+        width: 50px;
+        height: 25px;
+        background: rgb(128, 28, 0);
+        margin: 10px;
+    }
+}
