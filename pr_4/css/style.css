@@ -1,0 +1,140 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+    width: 95%;
+    height: 95%;
+    /* background: rgb(211, 208, 208); */
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.left-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms--title {
+    margin: 20px;
+}
+
+#email::placeholder,
+#email::-webkit-input-placeholder,
+#email::-moz-placeholder {
+    color: rgb(2, 2, 2);
+}
+
+#phone::placeholder,
+#phone::-webkit-input-placeholder,
+#phone::-moz-placeholder {
+    text-indent: 10px;
+    color: rgb(11, 4, 4);
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(218, 215, 211);
+    border: 0;
+    text-indent: 10px;
+}
+
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.message--title {
+    margin: 10px;
+}
+
+.help {
+    display: flex;
+    flex-basis: content;
+    text-decoration: 1px dashed solid black;
+}
+
+.left-button {
+    width: 150px;
+    padding: 10px;
+    /* border: 2px solid white; */
+    border-radius: 50px;
+    background-color: turquoise;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background: turquoise;
+    border-radius: 0 20px 20px 0;
+}
+
+.right-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: white;
+}
+
+span {
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+
+.right>h1,
+p {
+    color: white;
+}
