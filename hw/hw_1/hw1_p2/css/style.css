@@ -1,0 +1,46 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 55%;
+    margin: auto;
+    padding: 10px;
+    background: #e9e2e2;
+}
+
+.player {
+    margin: 10px 30px;
+}
+
+
+.player-card {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    background: #beb7b7;
+    margin: 5px;
+    flex: 0 0 content;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.player-card div:first-child {
+    margin-left: 0px;
+}
+
+.red {
+    color: rgba(148, 17, 17, 0.808);
+}
+
+.black {
+    color: black;
+}

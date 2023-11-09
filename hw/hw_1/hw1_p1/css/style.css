@@ -1,0 +1,30 @@
+body,
+html {
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
+    color: rgb(44, 42, 42);
+}
+
+.container {
+    background: #e4e1e1;
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(76, 24, 125);
+    text-align: center;
+}
+
+h2 {
+    color: grey;
+    font-size: 18px;
+}
+
+span {
+    font-style: italic;
+}
