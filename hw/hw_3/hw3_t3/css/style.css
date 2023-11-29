@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.container {
+    display: flex;
+    margin: 30px 30px 30px 30px;
+    padding: 10px;
+    background: rgb(224, 219, 219);
+}
+
+.container--inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 240px;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    min-width: 190px;
+    min-height: 330px;
+    margin: 20px 10px;
+    padding: 15px;
+    background: rgb(247, 245, 245);
+    border: 2px solid rgb(209, 208, 208);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #646161;
+    transition: all 1s ease;
+    /* Задаем анимацию для всех свойств с длительностью 1 секунда и функцией плавного перехода */
+}
+
+.card:hover {
+    transform: scale(1.2);
+    /* При наведении увеличиваем размер блока в 1.2 раза */
+}
+
+.card-paket1 {
+    width: 100%;
+    padding: 0px 0px 15px 0px;
+    border-bottom: 2px solid rgb(218, 73, 97);
+}
+
+.card-paket2 {
+    width: 100%;
+    padding: 0px 0px 15px 0px;
+    border-bottom: 2px solid rgb(214, 147, 11);
+}
+
+.card-paket3 {
+    width: 100%;
+    padding: 0px 0px 15px 0px;
+    border-bottom: 2px solid rgb(51, 51, 179);
+}
+
+.card-paket4 {
+    width: 100%;
+    padding: 0px 0px 15px 0px;
+    border-bottom: 2px solid rgb(45, 177, 18);
+}
+
+.card-price {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    font-size: 11px;
+    line-height: 250%;
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+}
+
+.price-dollars {
+    font-size: 30px;
+}
+
+.card-price span {
+    font-size: 12px;
+    color: rgb(155, 154, 154);
+}
+
+.card-cart1 {
+    width: 45%;
+    align-items: center;
+    background-color: rgb(212, 70, 94);
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.card-cart2 {
+    width: 45%;
+    align-items: center;
+    background-color: rgb(231, 159, 15);
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.card-cart3 {
+    width: 45%;
+    align-items: center;
+    background-color: rgb(78, 78, 210);
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.card-cart4 {
+    width: 45%;
+    align-items: center;
+    background-color: rgb(40, 179, 13);
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
